@@ -10,4 +10,5 @@ if (num === 0) {
   return fibonacci(num - 1) + fibonacci(num - 2);
 }
 
-module.exports = fibonacci;
+let num=prompt("Enter a number");
+alert(fibonacci(num)); 
