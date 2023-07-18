@@ -10,5 +10,5 @@ if (num === 0) {
   return fibonacci(num - 1) + fibonacci(num - 2);
 }
 
-let num=prompt("Enter a number");
-alert(fibonacci(num)); 
+let result=fibonacci();
+console.log(result);
